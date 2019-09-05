@@ -27,3 +27,8 @@
 - Added Table Header Hover effect
 - Added toggle sorting functionality by clicking a table header
 - Utilized overflow-y:scroll to keep a table concise and readable
+
+### Execution
+
+- npm i 
+- npm run start
