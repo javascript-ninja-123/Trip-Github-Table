@@ -1,0 +1,29 @@
+thead tr th:not(.no-hover){
+    cursor:pointer !important;
+    transition:all .2s ease-in-out !important;
+  }
+  thead tr th:not(.no-hover):hover{
+    background-color:black !important;
+    color:lightgray !important;
+  }
+  tbody {
+    display: block;
+    max-height: 60rem;
+    overflow-y: scroll;
+  }
+   thead,
+  tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  ul li {
+    padding:1rem 0;
+  }
+  
